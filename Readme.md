@@ -188,7 +188,8 @@ We built an **interactive dashboard** with KPIs, trends, and scenario analysis.
 
 ## 📷 Dashboard Preview
 
-*(Insert Tableau screenshots here once published to Tableau Online)*
+<img width="1852" height="1027" alt="image" src="https://github.com/user-attachments/assets/0c90f80b-0489-4aa3-ad04-6be7a7b8ec8f" />
+
 
 ---
 
