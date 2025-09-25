@@ -1,0 +1,22 @@
+version: 2
+sources:
+  - name: raw
+    database: EPA_GHG
+    schema: RAW
+    tables:
+      - name: raw_ghg_emissions
+        description: EPA facility-level raw loads (2021–2023)
+        columns:
+          - name: reporting_year
+          - name: facility_name
+          - name: ghgrp_id
+          - name: reported_address
+          - name: latitude
+          - name: longitude
+          - name: city_name
+          - name: county_name
+          - name: state
+          - name: zip_code
+          - name: parent_company
+          - name: ghg_quantity_mtco2e
+          - name: subparts

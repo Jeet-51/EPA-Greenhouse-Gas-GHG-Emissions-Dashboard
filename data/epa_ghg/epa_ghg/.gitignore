@@ -1,0 +1,28 @@
+# dbt build artifacts
+target/
+dbt_packages/
+logs/
+logs/*
+
+# local/OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# virtual envs & python cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# credentials & local profiles
+profiles.yml
+profiles/
+.env
+.env.*
+
+# data dumps / large files
+*.csv
+*.parquet
+*.hyper

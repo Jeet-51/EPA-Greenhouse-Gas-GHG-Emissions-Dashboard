@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: stg_ghg
+    columns:
+      - name: facility_name
+        tests: [not_null]
+      - name: state
+        tests: [not_null]
+      - name: reporting_year     # ← was year
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [2021, 2022, 2023]
+
+  - name: dim_state
+    tests:
+      - unique:
+          column_name: state_sk
+
+  - name: dim_sector
+    tests:
+      - unique:
+          column_name: sector_sk
+
+  - name: dim_facility
+    tests:
+      - unique:
+          column_name: facility_sk
+
+  - name: fct_emissions
+    columns:
+      - name: facility_sk
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_facility')
+                field: facility_sk
+      - name: state_sk
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_state')
+                field: state_sk
+      - name: sector_sk
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_sector')
+                field: sector_sk
+      - name: reporting_year     # ← was year
+        tests: [not_null]
