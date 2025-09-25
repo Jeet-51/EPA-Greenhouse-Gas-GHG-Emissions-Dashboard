@@ -220,7 +220,7 @@ We built an **interactive dashboard** with KPIs, trends, and scenario analysis.
 
 ## 📷 Dashboard Preview
 
-<img width="1843" height="1034" alt="image" src="https://github.com/user-attachments/assets/9f48a9bf-3c50-41b7-b0d8-893bb53086a4" />
+<img width="1817" height="1011" alt="image" src="https://github.com/user-attachments/assets/17733891-483e-428d-ba80-3b3afe4d14db" />
 
 
 
