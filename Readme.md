@@ -1,5 +1,23 @@
 # 🌍 U.S. Greenhouse Gas Emissions Dashboard (2021–2023)
 
+## 🛠️ Tech Stack & Skills (Badges)
+
+![Snowflake](https://img.shields.io/badge/Snowflake-Cloud%20DW-blue)
+![dbt](https://img.shields.io/badge/dbt-Transformations-orange)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboarding-blueviolet)
+![SQL](https://img.shields.io/badge/SQL-Analytics-success)
+![ETL](https://img.shields.io/badge/ETL-ELT%20Pipeline-informational)
+![Data Modeling](https://img.shields.io/badge/Data--Modeling-Dim%20%26%20Fact-lightgrey)
+![GitHub](https://img.shields.io/badge/GitHub-Version--Control-black)
+![Analytics](https://img.shields.io/badge/Analytics-Scenario%20Modeling-green)
+
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)
+![dbt Cloud](https://img.shields.io/badge/dbt%20Cloud-Deployment-critical)
+![Tableau Online](https://img.shields.io/badge/Tableau%20Online-Interactive%20Dashboards-orange)
+![Snowpipe](https://img.shields.io/badge/Snowpipe-Streaming%20Ingestion-brightgreen)
+![Monitoring](https://img.shields.io/badge/Monitoring-Data%20Quality%20%26%20Alerts-red)
+
+
 An end-to-end data analytics project built using **Snowflake**, **dbt**, and **Tableau**.\
 This pipeline ingests U.S. EPA FLIGHT emissions data into Snowflake, applies structured transformations with dbt, and delivers an **interactive Tableau dashboard** for emissions analysis and what-if scenario modeling.
 
