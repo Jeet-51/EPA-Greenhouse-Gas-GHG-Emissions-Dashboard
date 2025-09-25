@@ -229,6 +229,25 @@ By combining Snowflake, dbt, and Tableau, we enable **data-driven climate insigh
 
 ---
 
+## 📚 What I Learned
+
+- How to design a layered ELT pipeline in Snowflake with RAW → STG → CORE → MART schemas.
+- Using dbt for modular transformations, testing, and documentation.
+- Creating fact and dimension models with clear grain and lineage.
+- Leveraging seeds to standardize mappings (states to regions, subpart to sector).
+- Building interactive Tableau dashboards with parameters, what-if analysis, and consistent color themes.
+- Applying data validation checks at each step for reliability.
+
+## 🔮 Future Improvements
+
+- Automate ingestion with Snowpipe or external stage to refresh RAW data.
+- Implement Tableau Bridge or direct connections for real-time refresh instead of extracts.
+- Expand coverage to more years beyond 2021–2023.
+- Add forecasting models (e.g., Prophet, ARIMA) for emission trends.
+- Enhance dashboard with drill-through analysis to facility-level details.
+- Add CI/CD pipeline for dbt models with dbt Cloud or GitHub Actions.
+- Integrate with alerting/monitoring tools for anomalies in emissions data.
+
 ## 📜 License
 
 MIT License – free to use and adapt.
