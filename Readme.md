@@ -237,6 +237,8 @@ By combining Snowflake, dbt, and Tableau, we enable **data-driven climate insigh
 - Leveraging seeds to standardize mappings (states to regions, subpart to sector).
 - Building interactive Tableau dashboards with parameters, what-if analysis, and consistent color themes.
 - Applying data validation checks at each step for reliability.
+  
+---
 
 ## 🔮 Future Improvements
 
@@ -248,7 +250,17 @@ By combining Snowflake, dbt, and Tableau, we enable **data-driven climate insigh
 - Add CI/CD pipeline for dbt models with dbt Cloud or GitHub Actions.
 - Integrate with alerting/monitoring tools for anomalies in emissions data.
 
+---
+
 ## 📜 License
 
 MIT License – free to use and adapt.
+
+---
+## 👨‍💻 Author
+
+**Jeet Patel**  
+Master’s in Data Science, Indiana University Bloomington  
+📫 [LinkedIn]([https://www.linkedin.com/in/jeet-rakesh-patel/](https://www.linkedin.com/in/pateljeet22)) | 📧 jeetp5118@gmail.com
+
 
