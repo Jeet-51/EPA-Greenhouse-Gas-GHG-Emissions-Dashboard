@@ -22,7 +22,21 @@ An end-to-end data analytics project built using **Snowflake**, **dbt**, and **T
 This pipeline ingests U.S. EPA FLIGHT emissions data into Snowflake, applies structured transformations with dbt, and delivers an **interactive Tableau dashboard** for emissions analysis and what-if scenario modeling.
 
 ---
+## 🎯 Project Goal
 
+The main objective of this project is to **transform raw EPA Greenhouse Gas (GHG) data into actionable climate insights** through a modern analytics stack:
+
+- **Snowflake** → Ingest and organize raw emissions data with a structured schema lifecycle (RAW → STG → CORE → MART).
+- **dbt** → Apply modular transformations, build fact/dimension models, enforce testing, and document data lineage.
+- **Tableau** → Deliver an interactive dashboard with KPIs, trends, maps, and what-if scenario modeling.
+
+By combining these tools, the project enables:
+- Tracking national, sector, state, and facility-level emissions.
+- Providing decision-makers with **visual insights into emission trends** (2021–2023).
+- Allowing **scenario analysis** through adjustable reduction parameters.
+- Supporting sustainability and policy efforts with **data-driven evidence**.
+
+---
 ## 📐 Project Architecture
 
 ```mermaid
